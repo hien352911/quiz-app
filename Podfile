@@ -7,4 +7,5 @@ target 'Quiz' do
 
   # Pods for Quiz
 pod 'Alamofire'
+pod 'SwiftLint'
 end

@@ -135,6 +135,7 @@
 				864ED3F626FC738000BE1E67 /* Frameworks */,
 				864ED3F726FC738000BE1E67 /* Resources */,
 				0E8BE941BD91AF222A2DB6C8 /* [CP] Embed Pods Frameworks */,
+				864ED41E26FC94B000BE1E67 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -237,6 +238,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quiz/Pods-Quiz-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		864ED41E26FC94B000BE1E67 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		87E02D7BD8D8698FD9DABED7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
